@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product landing page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo-container">
+          <img
+            src="https://www.creativefabrica.com/wp-content/uploads/2020/09/17/Book-Logo-Graphics-5535886-1.jpg"
+            alt="logo"
+            id="header-img"
+          />
+          <span class="the-product">Classic books</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#audio" class="nav-link">Free audio book</a></li>
+          <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="email-section">
+      <h2>Amazingly written masterpieces</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email adress"
+          name="email"
+          required
+        />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+    </section>
+    <section id="features">
+      <div class="feature">
+        <i class="ri-file-paper-fill ri-4x icon"></i>
+        <div data-aos="zoom-out-right">
+          <h2>Premium materials</h2>
+          <p>
+            Our books use the best papers that u can think about for longevity.
+            This would keep the books from degrading.
+          </p>
+        </div>
+      </div>
+      <div class="feature" data-aos="zoom-out-right">
+        <i class="ri-truck-line ri-4x icon"></i>
+        <div>
+          <h2>1 Day Shipping</h2>
+          <p>
+            we ensure 24hrs shipping and also, give a chance for an early return
+            if you are not satisfied with the purchase
+          </p>
+        </div>
+      </div>
+      <div class="feature" data-aos="zoom-out-right">
+        <i class="ri-book-open-line ri-4x icon"></i>
+        <div>
+          <h2>Quality Books Only</h2>
+          <p>
+            we guarantee and give out the best of books, you'd be amazed how
+            classic, good, and long lasting they are.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="audio" data-aos="zoom-out-right">
+      <iframe
+        id="video"
+        height="400"
+        src="https://www.youtube.com/embed/YKAfKprBXQc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="for_sale">
+      <h2>for Sale</h2>
+      <div class="product-cards" data-aos="zoom-out-right">
+        <div class="card">
+          <div class="product-image product1"></div>
+          <div class="inner-card">
+            <div class="author" data-aos="zoom-out-right">Dale Carnegie</div>
+            <h1 class="header">How to win friends & Inluence people</h1>
+            <p class="content">
+              Dale Carnegie is tested and trusted in building lives
+            </p>
+            <div class="flex">
+              <p class="main-price">$16.12</p>
+              <p class="old-price">$19.29</p>
+            </div>
+            <button class="add">
+              <p style="margin-left: 5px">Add to cart</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="card" data-aos="zoom-out-right">
+          <div class="product-image product2"></div>
+          <div class="inner-card">
+            <div class="author" data-aos="zoom-out-right">Robert T. Kiyosi</div>
+            <h1 class="header">Rich Dad poor Dad</h1>
+            <p class="content">
+              what the rich teaches their kids that the poor and middle-class
+              dont
+            </p>
+            <div class="flex">
+              <p class="main-price">$7.68</p>
+              <p class="old-price">$15.16</p>
+            </div>
+            <button class="add">
+              <p style="margin-left: 5px">Add to cart</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="card" data-aos="zoom-out-right">
+          <div class="product-image product3"></div>
+          <div class="inner-card">
+            <div class="author">james Clear</div>
+            <h1 class="header">Atomic Habbits</h1>
+            <p class="content">
+              A very practical way of how James Clear describes atomic formation
+            </p>
+            <div class="flex">
+              <p class="main-price">$11.98</p>
+              <p class="old-price">$14.99</p>
+            </div>
+            <button class="add">
+              <p style="margin-left: 5px">Add to cart</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
