@@ -176,7 +176,7 @@
     cursor: pointer;
     padding: 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 9.9px;
     width: 100%;
     color: var(--white);
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
